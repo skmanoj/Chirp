@@ -6,9 +6,9 @@ module.exports = {
 		title: 'Chirp - Development Environment'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
-		callbackURL: '/auth/facebook/callback'
+		clientID: process.env.FACEBOOK_ID || '647511225394576',
+		clientSecret: process.env.FACEBOOK_SECRET || '9c62a385056aa54dd3b9b1be758a4797',
+		callbackURL: 'http://localhost:3000/auth/facebook/callback'
 	},
 	twitter: {
 		clientID: process.env.TWITTER_KEY || 'CONSUMER_KEY',
